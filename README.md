@@ -4,9 +4,9 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2025a-blue)
 ![Engenharia Aeroespacial](https://img.shields.io/badge/Campo-Engenharia_Aeroespacial-orange)
 
-Algoritmo desenvolvido em **MATLAB** para calcular dinamicamente o deslocamento do Centro de Gravidade (CG) longitudinal ($X$) e vertical ($Z$) de uma aeronave provocado pelo efeito de *sloshing* (deslocamento da lâmina d'água) em um reservatório axissimétrico de 2 Litros (geometria baseada em garrafa PET de 2L).
+Algoritmo desenvolvido em **MATLAB** para calcular estaticamente o deslocamento do Centro de Gravidade (CG) longitudinal ($X$) e vertical ($Z$) de uma aeronave provocado pelo efeito de *sloshing* (deslocamento da lâmina d'água) em um reservatório axissimétrico de 2 Litros (geometria baseada em garrafa PET de 2L).
 
-## 🚀 Destaques da Modelagem Téorica e Numérica
+## Destaques da Modelagem Téorica e Numérica
 
 - **Geometria Discontínua por Seções:** Modelagem do reservatório dividida em 4 regiões geométricas distintas (bocal cúbico, corpo cilíndrico, transição parabólica e fundo cônico).
 - **Condições de Contorno (Sistema Linear $4 \times 4$):** Solução do perfil do bocal por interpolação cúbica para garantir continuidade de derivada na abertura ($\frac{dy}{dx} = -0,2$).
@@ -16,7 +16,7 @@ Algoritmo desenvolvido em **MATLAB** para calcular dinamicamente o deslocamento 
 
 ---
 
-## 🧮 Formulação Matemática
+## Formulação Matemática
 
 ### 1. Sistema do Bocal Cúbico
 O perfil do bocal é obtido pela resolução do sistema matricial $A \cdot x = B$:
